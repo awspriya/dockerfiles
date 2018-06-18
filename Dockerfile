@@ -1,4 +1,4 @@
-FROM  ubuntu
+FROM  ubuntu:12.04
 MAINTAINER  priyanka admin.priyanka@gmail.com
 RUN    apt update && apt-get install apache2 -y
 EXPOSE  80
